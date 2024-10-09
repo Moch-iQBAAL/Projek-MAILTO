@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Kirim Email</title>
+</head>
+<body>
+    <h2>Kirim Email dengan File Terlampir</h2>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <label for="email">Email Tujuan:</label>
+        <input type="email" name="email" required><br><br>
+        <label for="file">Pilih File:</label>
+        <input type="file" name="file" required><br><br>
+        <button type="submit">Kirim</button>
+    </form>
+
+</body>
+</html>
